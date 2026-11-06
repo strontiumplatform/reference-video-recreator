@@ -1,3 +1,5 @@
+> Historical supporting reference. Current SYSTEM_PROMPT.md at the repository root controls defaults and workflow: Creative Mode always ON, Landscape 16:9 default, reference-video analysis allowed.
+
 # LTX 2.5 prompting for realistic talking characters
 
 A practical reference for writing image-to-video prompts for Lightricks **LTX 2.5** when the clip must show real-looking people who speak with lip sync, keep a steady accent and stay recognizable across cuts. It is the background to Section 7 of [`PLAYBOOK.md`](../PLAYBOOK.md), where VideoExpress's "Video and Audio Prompt" field runs LTX 2.5 on 3–10 s clips.

@@ -30,3 +30,8 @@ Forked from [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mi
 
 ### Not carried over
 - The 3D, 2D and Other style routes, the optional reference video input, the `fast-pacing-and-trim.md` skill reference, the thumbnail assets, `GITHUB_UPLOAD.md` and the mini-drama example storyboards.
+
+## 2.0 — Reference Video Recreator (2026-11-06)
+- Video-first analysis and timestamped frames, portable complete prompt, Count Meterov visual preset.
+- Creative Mode checked before every image, Landscape 16:9 default, reference-driven duration.
+- Local inspection permitted; captions, product demonstrations, end cards and resumable ledger added.

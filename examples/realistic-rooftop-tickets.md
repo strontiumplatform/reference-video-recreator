@@ -1,3 +1,5 @@
+> Historical supporting reference. Current SYSTEM_PROMPT.md at the repository root controls defaults and workflow: Creative Mode always ON, Landscape 16:9 default, reference-video analysis allowed.
+
 # Rooftop Tickets: Realistic, 30 s, Multi-shot
 
 > Maya surprises Leo with front-row concert tickets at a rooftop café. He claims he's busy. Then he slides out the exact same pair he bought for her, and the spare tickets go to a couple at the next table.

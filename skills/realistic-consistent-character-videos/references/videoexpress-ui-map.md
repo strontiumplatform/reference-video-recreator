@@ -1,3 +1,5 @@
+> Historical supporting reference. Current SYSTEM_PROMPT.md at the repository root controls defaults and workflow: Creative Mode always ON, Landscape 16:9 default, reference-video analysis allowed.
+
 # VideoExpress UI map
 
 Observed live in the signed-in editor at https://app.videoexpress.ai/ on 2026-10-23 (inherited from Realistic Mini Dramas). Entries marked **(confirmed live 2026-11-06)** were tested end to end with this workflow (photo upload, disclaimer, reference slots and anchor portraits). Labels are shown **bold**, exactly as they appear. If the UI changes, find the control by its visible text and keep going.

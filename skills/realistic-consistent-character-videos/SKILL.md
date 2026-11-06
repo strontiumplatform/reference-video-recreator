@@ -1,28 +1,6 @@
 ---
-name: realistic-consistent-character-videos
-description: Produce a fast-paced photorealistic ~30-second video of one or two real people from their reference photos, end to end in the VideoExpress web app with a browser - detailed character descriptions and voice locks, Consistent Character anchors, LTX 2.5 multi-shot image-to-video clips with lip-synced dialogue in a chosen English accent, dead-air trimming and export. Use when the user attaches photos of real people and asks for a consistent-character video, a video "starring" themselves or a colleague, a realistic talking scene with their face, or a VideoExpress consistent character video.
+name: reference-video-recreator
+description: Analyze an uploaded reference video and recreate its visual style, shot rhythm, characters, captions and narrative structure in VideoExpress through export.
 ---
-
-# Realistic Consistent Character Videos in VideoExpress
-
-The full recipe is `../../PLAYBOOK.md` at the repository root (public URL: https://raw.githubusercontent.com/ai-playbooks/realistic-consistent-character-videos/main/PLAYBOOK.md). Follow it exactly. It is self-contained.
-
-## Non-negotiables
-1. **Browser only.** Work at https://app.videoexpress.ai/. Run no code, shell, tests or file processing. The only file action is uploading the user's reference photos (Media Library → My Media → Images → Upload file → + Add files → Upload files).
-2. **No preflight.** No capability audit, readiness check, model verification, cost estimate or approval gate.
-3. **One question.** Ask for 1–2 photos plus a name per character (1 or 2 characters; best a close, sharp, front-facing head-and-shoulders photo), a story, an English accent per character, and optionally length (default 30 s), format (9:16 default or 16:9) and pacing (Multi-shot default or Single-shot). Then produce without stopping.
-4. **Consent.** Adults only, real likenesses the user has the right to use. No sexual, humiliating, hateful, political-impersonation, fake-news or deceptive content of a real person.
-5. **Realistic only.** Create Video From Prompt → **Vertical 9:16** (default) → Image Type **Photorealistic (Cinematic)**, **Use Creative mode ALWAYS ON** (anchors, start images, retries), **Automatically enhance my image prompt OFF**, Lipsync HD and Narration OFF, **public gallery OFF** on every generation.
-6. **Identity.** Write a very detailed **Character Description** per person (90–140 words: age/build, face shape, cheeks, jaw, chin, eyes, brows, nose, lips, skin, ears/facial hair, hair, accessories, plus a garment-by-garment Wardrobe Lock) and paste it verbatim into every image prompt; a Short Tag goes in video prompts. **Use Consistent Character** ON (the user clicks **I Agree** on the one-time Disclaimer). Make one chest-up anchor per character from only their photo in **Reference Photo**, select the closest carousel image (✓) and click **+ Consistent Character**. Then **Reference Photo** = Character 1's anchor, **Reference Photo 2** = Character 2's anchor.
-7. **Voice Lock.** One voice line plus the normalized accent phrase per character, word for word identical in every video prompt. English only.
-8. **LTX 2.5 multi-shot.** 30 s = 4 clips × 8 s, 2–3 shots per clip joined by "A hard cut transitions to…". Single-shot = 5 s clips, no cuts. Advanced Mode → **Automatically enhance my video prompt OFF** (it is ON by default). Every prompt starts with `C## —`.
-9. **5 in parallel.** Never more than 5 videos rendering; work in waves.
-10. **Dead-air trim** at each clip's head and tail only, never inside a clip, then **Auto Align Clips**. Export High / FullHD / mp4 and deliver the My Videos link.
-
-## Only stop for
-A photo upload your browser can't do, the one-time Consistent Character Disclaimer (**I Agree**), a login page, a one-time Terms screen, or an out-of-credits screen. The user does it, says "done", and you continue where you stopped.
-
-## References
-- `references/videoexpress-ui-map.md`: every control, label, default and quirk
-- `../../docs/ltx-2.5-prompting.md`: how to write LTX 2.5 multi-shot prompts
-- `../../examples/README.md` and `../../examples/realistic-rooftop-tickets.md`: a worked job with every prompt written out
+# Reference Video Recreator
+Read ../../SYSTEM_PROMPT.md in full, then ../../PLAYBOOK.md. Local video/frame inspection is permitted. Creative Mode ON immediately before every generated image; Landscape 16:9 default. Duration/pacing follow the reference. Preserve evidence limits, a production ledger and private media. Current system prompt overrides inherited UI notes and examples. Do not stop at an anchor or queued render.

@@ -11,3 +11,10 @@ private/
 !assets/thumbnail/*.mp4
 .env
 .DS_Store
+
+# Private source media and generated analysis
+work/
+outputs/
+*.mp4
+*.mov
+*.m4a

@@ -1,3 +1,5 @@
+> Historical supporting reference. Current SYSTEM_PROMPT.md at the repository root controls defaults and workflow: Creative Mode always ON, Landscape 16:9 default, reference-video analysis allowed.
+
 # Troubleshooting
 
 ## Why it might fail in ChatGPT / Codex
